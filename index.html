@@ -3,14 +3,17 @@
 	<title>Doctor</title>
 </head>
 <body>
-<!--     <video autoplay loop muted>
+    
+
+    <!-- <video autoplay loop muted>
         <source src="C:\Users\Dell\Desktop\doc\docvideo.mp4" type="video/mp4">
     </video> -->
     
-	<h1 style="text-align: center; font-family:Bradley Hand, cursive; color: white; font-size: 62px; margin-top: 2%;">VASOOL RAJA 
+	<h1 style="text-align: center; font-family:Bradley Hand, cursive; color: rgb(255, 255, 255); font-size: 62px; margin-top: 2%;">VASOOL RAJA 
         <!-- <img src="C:\Users\Dell\Desktop\doc\vasool.png" style="width:160px; height:160px; margin-bottom: 0%; margin-left: 0%;" alt="vasool raja" class="icon"> -->
         MBBS
     </h1>
+    <center> 
     <div id="develop">
 <center>
     <img style="width:200px; height: 200px; border-radius: 50%; object-fit: cover;" src="https://media.licdn.com/dms/image/D5603AQFM1QGcvGtTHw/profile-displayphoto-shrink_800_800/0/1677816993487?e=1687996800&v=beta&t=1WN5oeiVuGFAlBdIdHGOkd02XN-D9cftsNaPIw9u4Zo">
@@ -33,6 +36,7 @@
               </a>
               <!-- <span class="popuptext">LinkedIn</span> -->
             </div>
+        </center>
           </td>
         </tr>
       </table>
@@ -41,33 +45,29 @@
     
     
 </div>
-<div id="warning">
-    <center>
-<p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 35px; color:white;  -webkit-text-stroke: 0.5px black; padding: 5px;"><span id="colorf" style="color:red">*</span>Kindly Note that the website is <br>coded only for fever<br>please dont take the prescribed medicine</p>
-</center>
-</div>
+<center>   
     <div class="input-box">
         <div id="box1">
         <center>
-		<h2>Please enter your details:</h2>
+        <h2>Please enter your details:</h2>
         </center>
-		<form >
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" required>
-			<label for="age">Age:</label>
-			<input type="number" id="age" name="age" required>
-			<label for="sex">Sex:</label>
-			<select id="sex" name="sex" required>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
                 <option value="" disabled selected>Select your sex</option>
-				<option value="male">Male</option>
-				<option value="female">Female</option>
-				<option value="other">Other</option>
-			</select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
             <label for="adress">Address:</label>
             <input type="text" id="address" name="address" required>
-			<input type="submit" id="submit" value="Submit">
+            <input type="submit" id="submit" value="Submit">
             
-		</form>
+        </form>
     </div>
     
     <div id="output">
@@ -143,6 +143,12 @@
                      </div>   
                         
             </div>
+<div id="warning">
+    <center>
+<p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 35px; color:white;  -webkit-text-stroke: 0.5px black; padding: 5px;"><span id="colorf" style="color:red">*</span>Kindly Note that,This website is currently <br>under testing and maintenance<br>please dont take the prescribed medicine</p>
+</center>
+</div>
+</center>
             
             <style>
                 /* .icon {
@@ -150,6 +156,8 @@
     vertical-align: middle;
     margin-right: 10px;
   } */
+ 
+
                 video {
   position: fixed;
   top: 0;
@@ -165,13 +173,12 @@
 }
 
 body {
-        margin: 0;
-        padding: 0;
-        width:100%;
-	background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Blue-Pattern-Background-For-Free-Download.jpg");
-	 background-position: fixed;
+        
+        background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Blue-Pattern-Background-For-Free-Download.jpg");
+        background-position: fixed;
         background-repeat: no-repeat;
         background-size: cover;
+
       }
       video {
         object-fit: cover;
@@ -206,23 +213,23 @@ body {
         opacity: 1;
       }
                 #develop{
-                    float: left;
+                    float: center;
                     height:500px;
-                    width:325px;
+                    width:450px;
                     background-image: url("https://freefrontend.com/assets/img/css-background-patterns/2023-an-hypnotic-css-only-pattern.png");
                     border: 2px;
-                    margin-left: 3%;
+                    
                     border-radius: 20px;
                     border-color: white;
                     
                 }
                 #warning{
-                    float: right;
+                    float: center;
                     height:500px;
-                    width:325px;
+                    width:450px;
                     background-image: url("https://freefrontend.com/assets/img/css-background-patterns/2023-ana-tudor-pentagon-challenge.png");
                     border: 2px;
-                    margin-right: 3%;
+                   
                     border-radius: 20px;
                     border-color: white;
                 }
@@ -297,11 +304,12 @@ body {
 	-webkit-text-fill-color: transparent;
 }    */
 .input-box {
-	width: 550px;
+	width: 800px;
 	margin: 0 auto;
 	padding: 30px;
 	background-image: url("https://media.istockphoto.com/id/1092823870/vector/seamless-background-pattern-gray-grayscale-wallpaper-vector-illustration.jpg?s=612x612&w=0&k=20&c=5ZYHWgqb1ZIpepWFOFwyDDPEaUTB_wJ82RDue1-E9Dc=");
 	border-radius: 20px;
+    margin-top:30px;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
